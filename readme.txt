@@ -15,8 +15,7 @@ Running Tests:
 
 
 Running the Server:
-	1. Ensure nothing is utilizing PORT3000 as the server is set to use that port (though this can be changed by editing
-line 19 of the server.js file)
+	1. Ensure nothing is utilizing PORT3000 as the server is set to use that port (though this can be changed by editing line 19 of the server.js file)
 	2. Open up your preferred console (Powershell, Command Prompt, etc.)
 	3. Change directory to the Book Recommendation System directory
 	4. Enter command: "node server.js"
@@ -30,8 +29,7 @@ system on them)
 	4. Add a user or access an existing user.
 		4.1. All existing user passwords are the user's first name in all lower case.
 	5. Follow buttons to progress.
-	6. Adding a liked/disliked book requires a Google Books ID. This can be obtained from the Google Books URL and is case 
-sensitive.
+	6. Adding a liked/disliked book requires a Google Books ID. This can be obtained from the Google Books URL and is case sensitive.
 		6.1. URL of book: https://www.google.ca/books/edition/The_Name_of_the_Wind/TG5DXNXv2tAC?hl=en
 		6.2. Breaking up the URL: https://www.google.ca/books/edition/The_Name_of_the_Wind/  |  TG5DXNXv2tAC  |  ?hl=en
 		6.3. ID for adding book: TG5DXNXv2tAC
