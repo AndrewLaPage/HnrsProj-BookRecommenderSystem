@@ -23,8 +23,7 @@ Running the Server:
 
 Using the Client:
 	1. Ensure server is running (see "Running the Server")
-	2. Open up Google Chrome for desired results (other browsers may cause unforeseen issues as I have not tested the 
-system on them)
+	2. Open up Google Chrome for desired results (other browsers may cause unforeseen issues as I have not tested the system on them)
 	3. Visit the following webpage: http://localhost:3000/login.html
 	4. Add a user or access an existing user.
 		4.1. All existing user passwords are the user's first name in all lower case.
