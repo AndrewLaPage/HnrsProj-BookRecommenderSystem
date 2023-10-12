@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="SitePoint">
+		<title>Book Recommender System</title>
+		<style>
+			*{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body  onload="populateUsers()">
+		<h1>Book Recommender System</h1>
+		<script type ="text/javascript" src = "js/login.js"></script>
+		<label for="users">Choose a User:</label>
+		<select name="users" id="users"></select>
+		<br><br>
+		<label for="passBox">Enter Password:</label>
+		<input type="password" id="passBox">
+		<br><br>
+		<!--Redirects to selected user's profile page if password entered is correct-->
+		<button type="button" id="selectUser" onclick='selectUser()'>Select User</button>
+		<!--Redirects to new user page and profile creation-->
+		<button type="button" id="newUser" onclick="gotoNewUser()">New User</button>
+	</body>
+</html>

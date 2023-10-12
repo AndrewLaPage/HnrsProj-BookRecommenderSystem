@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="SitePoint">
+		<title>Book Recommender System</title>
+		<style>
+			textarea {
+				overflow-y: scroll;
+				height: 100px;
+				width: 600px;
+			}
+		</style>
+	</head>
+	<body onload = 'loadUser()'>
+		<h1>Book Recommender System</h1>
+		<script type ="text/javascript" src = "js/profile.js"></script>
+		<!--Get elements for user-->
+		<h2>Profile Info</h2>
+		<label for="nameBox">Full Name:</label>
+		<input type="text" id="nameBox" disabled>
+		<br><br>
+		<!--Gets liked book by ID and adds it to textbox-->
+		<h2>Liked Books</h2>
+		<label for="likedBookBox">Book ID (from Google Books):</label>
+		<input type="text" id="likedBookBox">
+		<button type="button" id="likedBookSearch" onclick="addLikedBook()">Add Book</button><br><br>
+		<label for="likedBookList">Liked Books:</label><br>
+		<textarea id="likedBookList" disabled></textarea>
+		<br>
+		<label for="genreList">Genres</label><br>
+		<textarea id="genreList" disabled></textarea>
+		<br><br>
+		<!--Gets disliked book by ID and adds it to textbox-->
+		<h2>Disliked Books</h2>
+		<label for="dislikedBookBox">Book ID (from Google Books):</label>
+		<input type="text" id="dislikedBookBox">
+		<button type="button" id="dislikedBookSearch" onclick="addDislikedBook()">Add Book</button><br><br>
+		<label for="dislikedBookList">Disiked Books:</label><br>
+		<textarea id="dislikedBookList" disabled></textarea>
+		<br><br>
+		<button type="button" id="getRecommendation" onclick="gotoRecommend()">Get Book Recommendations</button>
+		<button type="button" id="goBack" onclick="gotoLogin()">Return</button>
+	</body>
+</html>
